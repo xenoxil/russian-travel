@@ -9,7 +9,7 @@
 
 @media screen and (min-width:768px) {
     .photo-grid {
-        width: 720px;
+        width: calc(100% - 24px - 24px);
         gap: 16px;
         padding: 88px 24px 0;
     }
@@ -17,7 +17,7 @@
 
 @media screen and (min-width:1024px) {
     .photo-grid {
-        width: 928px;
+        width: calc(100% - 48px - 48px);
         gap: 14px;
         padding: 92px 48px 0;
     }
@@ -25,7 +25,6 @@
 
 @media screen and (min-width:1280px) {
     .photo-grid {
-        width: 1184px;
         gap: 16px;
     }
 }

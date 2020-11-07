@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     width: 186px;
-    min-height: calc(310px - 14px - 48px);
     justify-content: space-between;
 }
 
@@ -10,7 +9,6 @@
     .footer__container {
         flex-direction: row;
         justify-content: flex-start;
-        min-height: 18px;
         width: calc(100% - 160px);
     }
 }
