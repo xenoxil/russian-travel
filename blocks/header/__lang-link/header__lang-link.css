@@ -1,0 +1,22 @@
+.header__lang-link {
+    width: 22px;
+    height: 20px;
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 14px 18px 8px 0;
+    align-items: flex-end;
+}
+
+.header__lang-link:last-of-type {
+    margin-right: 0;
+}
+
+.header__lang-link:active {
+    text-decoration-line: underline;
+}

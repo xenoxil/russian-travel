@@ -1,0 +1,4 @@
+.place__article {
+    grid-area: text;
+    flex-wrap: wrap;
+}

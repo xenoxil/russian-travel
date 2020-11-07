@@ -1,0 +1,25 @@
+.place {
+    padding-top: 49px;
+}
+
+.place:first-of-type {
+    padding-top: 0;
+}
+
+@media screen and (min-width:768px) {
+    .place {
+        padding-top: 73px;
+        display: grid;
+        grid-template-columns: repeat(6, fit-content);
+        grid-template-rows: repeat(6, min-content);
+        grid-template-areas: "title title title . . ." "title title title web web web" "img img img text text text" "img img img text text text" "img img img text text text" "img img img text text text" "img img img text text text";
+        grid-column-gap: 28px;
+        grid-row-gap: 48px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .place {
+        padding-top: 80px;
+    }
+}
