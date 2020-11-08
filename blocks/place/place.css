@@ -10,7 +10,7 @@
     .place {
         padding-top: 73px;
         display: grid;
-        grid-template-columns: repeat(6, fit-content);
+        grid-template-columns: repeat(6, minmax(min-content, max-content));
         grid-template-rows: repeat(6, min-content);
         grid-template-areas: "title title title . . ." "title title title web web web" "img img img text text text" "img img img text text text" "img img img text text text" "img img img text text text" "img img img text text text";
         grid-column-gap: 28px;
