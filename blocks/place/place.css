@@ -25,8 +25,6 @@
         grid-row-gap: 48px;
         grid-template-rows: repeat(6, min-content);
         grid-template-areas: "title title title . . ." "title title title web web web" "img img img text text text" "img img img text text text" "img img img text text text" "img img img text text text" "img img img text text text";
-        grid-column-gap: 28px;
-        grid-row-gap: 48px;
     }
 }
 
