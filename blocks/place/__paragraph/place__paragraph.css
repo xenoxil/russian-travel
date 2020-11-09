@@ -16,6 +16,9 @@
     .place__paragraph {
         padding: 0;
     }
+    .place__paragraph:only-child {
+        padding: 0;
+    }
 }
 
 @media screen and (min-width:1024px) {
