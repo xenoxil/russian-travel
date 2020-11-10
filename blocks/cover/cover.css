@@ -5,9 +5,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    align-items: center;
     width: 100%;
     margin: 66px 0 0;
-    /*padding: 0 16px;*/
     z-index: 0;
 }
 
@@ -33,20 +33,20 @@
     width: 0;
     height: 0;
     padding-top: calc(480/768*100%);
+    max-width: 1184px;
+    max-height: 740px;
 }
 
 @media screen and (min-width:768px) {
     .cover {
         margin: 90px 0 0;
-        width: 768px;
         height: 480px;
     }
 }
 
 @media screen and (min-width:1024px) {
     .cover {
-        margin: 92px 0 0;
-        width: 1024px;
+        margin: 92px auto 0;
         height: 640px;
     }
 }
